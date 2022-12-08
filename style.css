@@ -408,14 +408,14 @@ border-radius: 10px;
 .menu__celular {
     display: none;
 }
-.menu__celular-contenido {
+/* .menu__celular-contenido {
     display: grid;
     justify-content: start;
 }
 .menu__celular-contenido a{
     text-decoration: none;
     color: whitesmoke;
-}
+} */
 /* mobile last */
 
 @media (max-width: 1200px) {
@@ -475,6 +475,14 @@ border-radius: 10px;
 @media (max-width: 768px) {
     .menu__celular {
         display: block;
+    }
+    .menu__celular-contenido {
+        display: grid;
+        justify-content: start;
+    }
+    .menu__celular-contenido a{
+        text-decoration: none;
+        color: whitesmoke;
     }
     .encabezado__contenido {
         display: none;
