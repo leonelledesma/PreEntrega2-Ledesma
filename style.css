@@ -408,14 +408,11 @@ border-radius: 10px;
 .menu__celular {
     display: none;
 }
-/* .menu__celular-contenido {
-    display: grid;
-    justify-content: start;
+
+.menu__celular-contenido {
+    display: none;
 }
-.menu__celular-contenido a{
-    text-decoration: none;
-    color: whitesmoke;
-} */
+
 /* mobile last */
 
 @media (max-width: 1200px) {
