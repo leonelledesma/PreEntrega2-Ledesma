@@ -413,6 +413,13 @@ border-radius: 10px;
     display: none;
 }
 
+.collapse {
+    display: none;
+}
+
+.navbar {
+    display: none;
+}
 /* mobile last */
 
 @media (max-width: 1200px) {
@@ -470,6 +477,14 @@ border-radius: 10px;
 }
 
 @media (max-width: 768px) {
+    .collapse {
+        display: block;
+    }
+    
+    .navbar {
+        display: block;
+    }
+
     .menu__celular {
         display: block;
     }
